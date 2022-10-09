@@ -24,15 +24,18 @@ let doc = {
     },
 };
 
+//проходжусь по першому рівню вкладеності
 for (let key in doc){
 
+    //перевіряю чи є в вкладеності об`єкт
     if  (typeof doc[key] == 'object'){
         document.write(key + '</br>');
 
-
+        //проходжусь по другому рівню вкладеності
         for (let key1 in doc[key]){
             let doc1 = doc[key];
 
+            //перевіряю чи є в вкладеності об`єкт
             if  (typeof doc1[key1] == 'object'){
                 document.write('__' + key1 + '</br>');
                 
