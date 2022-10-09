@@ -1,0 +1,36 @@
+body {
+    max-width: 815px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+header {
+    border: 3px solid red;
+    width: 806px;
+    height: 200px;
+}
+
+nav {
+    border: 3px solid orange;
+    width: 100px;
+    height: 400px;
+}
+
+section {
+    border: 3px solid orange;
+    width: 700px;
+    height: 400px;
+}
+
+div {
+    padding: 10%;
+}
+
+footer {
+    border: 3px solid grey;
+    width: 806px;
+    height: 200px;
+}
