@@ -39,3 +39,5 @@ document.write('<br>');
 // додаємо Реп і Реггі на початок
 arr.splice(0, 0, 'Реп', 'Реггі');
 document.write(arr);
+
+
