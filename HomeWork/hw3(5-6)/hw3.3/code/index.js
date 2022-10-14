@@ -27,7 +27,7 @@ data.forEach(function (a) {
     </tr>
     `
 
-    //стаорюю нову змінну куди записую getElementById, у мене виникалапрмилка тому, щоб полегшити собі пошук розбила на частини
+    //створюю нову змінну куди записую getElementById, у мене виникала помилка тому, щоб полегшити собі пошук розбила на частини
     var element = document.getElementById('content');
     //створюю строки в таблиці
     element.innerHTML += tr
